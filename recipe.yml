@@ -2,6 +2,9 @@ name: Extra Styleguide
 type: Drupal CMS
 description: "A Drupal recipe that configures the Styleguide module to provide a visual reference for UI components and theme elements."
 
+install:
+  - simple_styleguide
+
 config:
   strict: false
   actions:
